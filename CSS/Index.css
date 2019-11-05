@@ -1,0 +1,18 @@
+@charset "utf-8";
+html{
+    background-color: rgb(60, 60, 60);
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6, p{
+    color: white;
+}
+a:hover, a:active, a:link{
+    color: white;
+}
+div#Social{
+    background-color: rgb(140, 140, 140);
+}
