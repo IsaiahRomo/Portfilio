@@ -1,0 +1,95 @@
+@charset "utf-8";
+html{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: block;
+    background: blueviolet;
+    padding: 0;
+    margin: 0;
+}
+nav.horizontal li{
+    list-style: none;
+}
+section.Title{
+    text-align: center;
+    color: white; 
+}
+section.Title div#Title img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+section.About{
+    display: block;
+    background: blueviolet;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+div.Purple{
+    height: 25px;
+    background-color: blueviolet;
+}
+section.Skills{
+    position: relative;
+    top: -25px;
+}
+section.Skills div{
+    display: block;
+    text-align: center;
+    background: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 10px;
+    color: black;
+    box-shadow:  black -10px 10px 20px;
+}
+div.White{
+    height: 250px;
+    background-color: white;
+}
+section.Work{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+section.Work figure{
+    margin: 0;
+    padding: 0;
+}
+section.Work figure img{
+    margin: 10px;
+    padding: 0px;
+    width: 50%;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+section.Contact{
+    display: block;
+    background: white;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: black;
+    color: black;
+    box-shadow:  black -10px 10px 20px;
+}
+section.Social img{
+    margin-left: 5px;
+    border: 1px solid;
+    border-radius: 50px;
+    max-width: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blueviolet;
+    border-color: black;
+    box-shadow:  black -10px 10px 20px;
+}
