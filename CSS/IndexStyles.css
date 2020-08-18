@@ -6,7 +6,7 @@ html{
 }
 body{
     display: block;
-    background: blueviolet;
+    background: rgb(52, 51, 53);
     padding: 0;
     margin: 0;
 }
@@ -26,7 +26,7 @@ nav.horizontal a {
 }
 section.Title{
     text-align: center;
-    color: white; 
+    color: rgb(0, 199, 116); 
     clear: both;
 }
 section.Title div#Title img{
@@ -38,7 +38,7 @@ section.Title div#Title img{
 }
 section.About{
     display: block;
-    background: blueviolet;
+    background: rgb(52, 51, 53);
     text-align: center;
     margin: 0;
     padding: 5px;
@@ -46,7 +46,7 @@ section.About{
 }
 div.Purple{
     height: 25px;
-    background-color: blueviolet;
+    background-color: rgb(52, 51, 53);
     margin: 0;
     padding: 0;
 }
@@ -140,7 +140,7 @@ section.Social img{
     padding-right: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: blueviolet;
+    background-color: rgb(52, 51, 53);
     border-color: black;
     box-shadow:  black -10px 10px 20px;
 }
