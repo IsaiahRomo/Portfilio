@@ -3,31 +3,42 @@ html{
     display: block;
     padding: 0;
     margin: 0;
+    font-family: RussoOne, sans-serif;
+    color: rgb(65, 216, 153);
 }
 body{
     display: block;
-    background: blueviolet;
+    background: rgb(51, 51, 51);
     padding: 0;
     margin: 0;
 }
-div#logo{
-    float: left;
+@font-face{
+    font-family: RussoOne;
+    src: url(RussoOne-Regular.ttf);
 }
-nav.horizontal ul li {
-    list-style: none;
-    float: left;
-    display: block;
-    padding: 10px;
-    border: solid black .5px;
+nav.horizontal {
+    text-align: center;
 }
 nav.horizontal a {
     text-decoration: none;
-    color: black;
+    color: rgb(65, 216, 153);
+}
+nav.horizontal li{
+    list-style: none;
+    border: solid black 0.5px;
+    box-shadow:  black 1px 5px 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-1-4{
+    width: 25%;
+    float: left;
 }
 section.Title{
     text-align: center;
-    color: white; 
+    color: rgb(65, 216, 153);
     clear: both;
+    padding-top: 20px;
 }
 section.Title div#Title img{
     margin-left: auto;
@@ -35,18 +46,19 @@ section.Title div#Title img{
     padding: 0;
     border-radius: 50px;
     width: 20%;
+    box-shadow:  black 1px 1px 8px 5px;
 }
 section.About{
     display: block;
-    background: blueviolet;
+    background: rgb(51, 51, 51);
     text-align: center;
     margin: 0;
     padding: 5px;
-    color: white;
+    color: rgb(65, 216, 153);
 }
 div.Purple{
     height: 25px;
-    background-color: blueviolet;
+    background-color: rgb(51, 51, 51);
     margin: 0;
     padding: 0;
 }
@@ -57,15 +69,16 @@ section.Skills{
 section.Skills div{
     display: block;
     text-align: center;
-    background: white;
+    background: rgb(51, 51, 51);
     margin-left: 8px;
     margin-right: 8px;
     border-radius: 10px;
-    color: black;
-    box-shadow:  black -8px 10px 8px;
+    color: rgb(65, 216, 153);
+    box-shadow:  black 1px 1px 8px 5px;
     overflow: auto;
-    height: 260px;
-    border: solid black 0.5px
+    height: 300px;
+    padding: 10px;
+    border: solid black 0.5px;
 }
 section.Skills div img#HTML{
     display: block;
@@ -95,15 +108,16 @@ section.Skills div img#Scale_2{
 }
 div.White{
     height: 250px;
-    background-color: white;
+    background-color: rgb(51, 51, 51);
     margin: 0;
     padding: 0;
 }
 section.Work{
     display: block;
     text-align: center;
-    background-color: white;
-    color: black;
+    background-color: rgb(51, 51, 51);
+    color: rgb(65, 216, 153);
+    padding-top: 100px;
 }
 section.Work h2{
    margin: 0;
@@ -118,17 +132,18 @@ section.Work figure img{
     width: 50%;
     border: solid black 2px;
     border-radius: 10px;
+    box-shadow:  black -8px 10px 8px;
 }
 section.Contact{
     display: block;
-    background: white;
+    background: rgb(51, 51, 51);
     text-align: center;
     border: 1px solid;
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     border-color: black;
-    color: black;
+    color: rgb(65, 216, 153);
     box-shadow:  black -10px 10px 20px;
 }
 section.Social img{
@@ -140,7 +155,15 @@ section.Social img{
     padding-right: 6px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: blueviolet;
+    background-color: rgb(51, 51, 51);
     border-color: black;
     box-shadow:  black -10px 10px 20px;
+}
+.col-1-2{
+    width: 50%;
+    float: left;
+}
+section.Social li{
+    list-style: none;
+    text-align: center;
 }
