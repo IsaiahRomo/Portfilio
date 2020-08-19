@@ -16,6 +16,9 @@ body{
     font-family: RussoOne;
     src: url(RussoOne-Regular.ttf);
 }
+
+
+
 nav.horizontal {
     text-align: center;
 }
@@ -34,6 +37,9 @@ nav.horizontal li{
     width: 25%;
     float: left;
 }
+
+
+
 section.Title{
     text-align: center;
     color: rgb(65, 216, 153);
@@ -48,6 +54,9 @@ section.Title div#Title img{
     width: 20%;
     box-shadow:  black 1px 1px 8px 5px;
 }
+
+
+
 section.About{
     display: block;
     background: rgb(51, 51, 51);
@@ -56,12 +65,9 @@ section.About{
     padding: 5px;
     color: rgb(65, 216, 153);
 }
-div.Purple{
-    height: 25px;
-    background-color: rgb(51, 51, 51);
-    margin: 0;
-    padding: 0;
-}
+
+
+
 section.Skills{
     position: relative;
     top: -25px;
@@ -106,12 +112,9 @@ section.Skills div img#Scale_2{
     margin-left: auto;
     margin-right: auto;
 }
-div.White{
-    height: 250px;
-    background-color: rgb(51, 51, 51);
-    margin: 0;
-    padding: 0;
-}
+
+
+
 section.Work{
     display: block;
     text-align: center;
@@ -134,6 +137,9 @@ section.Work figure img{
     border-radius: 10px;
     box-shadow:  black -8px 10px 8px;
 }
+
+
+
 section.Contact{
     display: block;
     background: rgb(51, 51, 51);
@@ -146,6 +152,9 @@ section.Contact{
     color: rgb(65, 216, 153);
     box-shadow:  black -10px 10px 20px;
 }
+
+
+
 section.Social img{
     margin-left: 5px;
     border: 1px solid;
