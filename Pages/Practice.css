@@ -3,12 +3,10 @@ body {
     margin: 40px;
   }
   
-  .wrapper {
+  .container {
           display: grid;
-      grid-gap: 10px;
-          grid-template-columns: [col] 100px [col] 100px [col] 100px [col] 100px  ;
-          grid-template-rows: [row] auto [row] auto [row] ;
-          background-color: #fff;
+          grid-gap: 10px;
+          background-color: rgb(0, 0, 0);
           color: #444;
       }
   
@@ -22,23 +20,23 @@ body {
       }
   
       .a {
-          grid-column: col / span 2;
+          grid-column: col 1/4 / span 2;
           grid-row: row ;
       }
       .b {
-          grid-column: col 3 / span 2 ;
+          grid-column: col 3/4 / span 2 ;
           grid-row: row ;
       }
       .c {
-          grid-column: col ;
+          grid-column: col 2/4 ;
           grid-row: row 2 ;
       }
       .d {
-          grid-column: col 2 / span 3 ;
+          grid-column: col 2/4 / span 3 ;
           grid-row: row 2 ;
       }
   
       .e {
-          grid-column: col / span 4;
+          grid-column: col 1 / span 4;
           grid-row: row 3;
       }
